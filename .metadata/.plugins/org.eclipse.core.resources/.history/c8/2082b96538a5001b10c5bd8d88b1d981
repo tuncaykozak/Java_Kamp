@@ -1,0 +1,11 @@
+package oopIntro;
+
+public class Product {
+	
+	int id; //urun id--ayni isim ve aciklama olursa ayirt edecek
+	String name;//urun ismi
+	double unitPrice;//urun fiyati
+	String detail;//urun detayi
+	
+
+}

@@ -1,0 +1,15 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//camelCase
+		//
+		String internetSubeButonu = "Internet SUbesi";
+		
+		
+		System.out.println(internetSubeButonu);
+
+	}
+
+}

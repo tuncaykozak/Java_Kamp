@@ -1,0 +1,13 @@
+package homeWork_3;
+
+public class dataTypes {
+
+	public static void main(String[] args) {
+		
+		int sayi1 =12;
+		
+		sayi = 127; //
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package homeWork_3;
+
+public class helloWorld {
+
+	public static void main(String[] args) {
+			
+		//print:yaz
+		//ln:line
+		System.out.println("Merhaba Java");
+		//bir satirlik yazi yazilacak
+		
+		//intellisense
+		
+	}
+
+}

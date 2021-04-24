@@ -1,0 +1,15 @@
+package homeWork_3;
+
+public class variables {
+
+	public static void main(String[] args) {
+		
+		//case sensitive : buyuk-kucuk karakterlere duyarli
+		System.out.println("Ogrenci Sayim : 9");
+		System.out.println("Ogrenci Sayim : 9");
+		System.out.println("Ogrenci Sayim : 9");
+		System.out.println("Ogrenci Sayim : 9");
+
+	}
+
+}
