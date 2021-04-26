@@ -15,7 +15,7 @@ public class Main {
 		
 		Instructor instructor1 = new Instructor(
 				1,
-				"Engin_Demirog",
+				"Engin Demirog",
 				"Uzman" 
 				//args
 				);

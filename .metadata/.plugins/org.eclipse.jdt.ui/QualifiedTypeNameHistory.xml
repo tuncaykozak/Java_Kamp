@@ -5,4 +5,7 @@
     <fullyQualifiedTypeName name="oopIntro.Category"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="oopIntro.ProductManager"/>
+    <fullyQualifiedTypeName name="homeWork_d2.Category"/>
+    <fullyQualifiedTypeName name="homeWork_d2.Instructor"/>
+    <fullyQualifiedTypeName name="homeWork_d2.InstructorManager"/>
 </qualifiedTypeNameHistroy>
