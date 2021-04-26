@@ -27,7 +27,7 @@ public class methods {
 		
 	int [] numbers = new int[] {1,2,5,7,9,0};
 		
-		int numberFor =3;
+		int numberFor =2;
 		boolean isThere =false;
 		
 		for(int number:numbers) {
@@ -37,16 +37,30 @@ public class methods {
 			}
 			
 		}
-		
+		String mesaj = "";
 		if(isThere) {
-			System.out.println("Sayi Mevcuttur");
+			mesaj = ("Sayi Mevcuttur : " +numberFor);
+			messageSender(mesaj);
 		}
 		else {
-			System.out.println("Sayi Mevcut Degildir");
+			System.out.println("Sayi Mevcut Degildir : " +numberFor);
 		}
 		
 		
 		
 	}
+	
+	public static void messageSender(String mesaj) { //parametreli method
+		System.out.println(mesaj);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
