@@ -33,7 +33,7 @@ public class Main {
 		System.out.println("test!");
 		
 		
-		Category category1 = new Category(1,"Yazilim","8 Hafta");
+		//Category category1 = new Category(1,"Yazilim","8 Hafta");
 		
 		System.out.println("test!");
 		

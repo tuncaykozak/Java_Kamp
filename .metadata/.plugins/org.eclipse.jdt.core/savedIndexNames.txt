@@ -3,5 +3,4 @@ INDEX VERSION 1.131+C:\Users\ADMIN\Desktop\java_Kamp\.metadata\.plugins\org.ecli
 2765976750.index
 278804527.index
 1037313300.index
-147269832.index
 380197650.index
