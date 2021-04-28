@@ -8,4 +8,13 @@
     <fullyQualifiedTypeName name="homeWork_d2.Category"/>
     <fullyQualifiedTypeName name="homeWork_d2.Instructor"/>
     <fullyQualifiedTypeName name="homeWork_d2.InstructorManager"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.security.algorithms.MessageDigestAlgorithm"/>
+    <fullyQualifiedTypeName name="com.sun.java.accessibility.util.TopLevelWindowListener"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.dtm.ref.CustomStringPool"/>
+    <fullyQualifiedTypeName name="homeWork_d2_2.CustomerManager"/>
+    <fullyQualifiedTypeName name="homeWork_d2_2.dortIslem"/>
+    <fullyQualifiedTypeName name="homeWork_d2_2.Product"/>
+    <fullyQualifiedTypeName name="homeWork_d2_2.ProductManager"/>
+    <fullyQualifiedTypeName name="homeWork_d2_2.DortIslem_overloading"/>
+    <fullyQualifiedTypeName name="homeWork_d2_2.DortIslem"/>
 </qualifiedTypeNameHistroy>
