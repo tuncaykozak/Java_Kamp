@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="oopIntro.ProductManager"/>
     <fullyQualifiedTypeName name="homeWork_d2.Category"/>
     <fullyQualifiedTypeName name="homeWork_d2.Instructor"/>
@@ -32,4 +31,6 @@
     <fullyQualifiedTypeName name="interfaces.SmsLogger"/>
     <fullyQualifiedTypeName name="interfaces.EmailLogger"/>
     <fullyQualifiedTypeName name="interfaces.FileLogger"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="interfaces.Utils"/>
 </qualifiedTypeNameHistroy>
