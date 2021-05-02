@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="abstractClasses.WomanGameCalculator"/>
+    <fullyQualifiedTypeName name="abstractClasses.KidsGameCalculator"/>
+    <fullyQualifiedTypeName name="abstractClasses.GameCalculator"/>
+    <fullyQualifiedTypeName name="abstractDemo.CustomerManager"/>
+    <fullyQualifiedTypeName name="abstractDemo.OracleDatabaseManager"/>
+    <fullyQualifiedTypeName name="abstractDemo.SqlServerDataBaseManager"/>
+    <fullyQualifiedTypeName name="abstractDemo.BaseDatabaseManager"/>
+    <fullyQualifiedTypeName name="abstractDemo.MySqlDatabaseManager"/>
+    <fullyQualifiedTypeName name="interfaces.CustomerDal"/>
+    <fullyQualifiedTypeName name="interfaces.OracleCustomerDal"/>
+    <fullyQualifiedTypeName name="interfaces.Repository"/>
+</qualifiedTypeNameHistroy>
