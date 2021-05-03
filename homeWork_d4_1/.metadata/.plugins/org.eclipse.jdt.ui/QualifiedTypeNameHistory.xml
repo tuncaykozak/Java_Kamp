@@ -8,7 +8,19 @@
     <fullyQualifiedTypeName name="abstractDemo.SqlServerDataBaseManager"/>
     <fullyQualifiedTypeName name="abstractDemo.BaseDatabaseManager"/>
     <fullyQualifiedTypeName name="abstractDemo.MySqlDatabaseManager"/>
+    <fullyQualifiedTypeName name="interfaces.Repository"/>
+    <fullyQualifiedTypeName name="interfaces.MySqlCustomerDal"/>
+    <fullyQualifiedTypeName name="interfaces.CustomerManager"/>
     <fullyQualifiedTypeName name="interfaces.CustomerDal"/>
     <fullyQualifiedTypeName name="interfaces.OracleCustomerDal"/>
-    <fullyQualifiedTypeName name="interfaces.Repository"/>
+    <fullyQualifiedTypeName name="interfaceDemo.Eatable"/>
+    <fullyQualifiedTypeName name="interfaceDemo.Paybale"/>
+    <fullyQualifiedTypeName name="interfaceDemo.Workable"/>
+    <fullyQualifiedTypeName name="staticDemo.ProductValidater"/>
+    <fullyQualifiedTypeName name="staticDemo.ProductManager"/>
+    <fullyQualifiedTypeName name="staticDemo.Product"/>
+    <fullyQualifiedTypeName name="staticDemo.ProductValidator"/>
+    <fullyQualifiedTypeName name="staticDemo.DatabaseHelper.Crud"/>
+    <fullyQualifiedTypeName name="staticDemo.DatabaseHelper"/>
+    <fullyQualifiedTypeName name="staticDemo.DatabaseHelper.Connection"/>
 </qualifiedTypeNameHistroy>
