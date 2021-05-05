@@ -12,7 +12,6 @@
 	<classpathentry kind="lib" path="C:/Users/ADMIN/Desktop/X_jj/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/lib/saaj.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ADMIN/Desktop/X_jj/eclipse/plugins/javax.wsdl_1.6.2.v201012040545.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ADMIN/Desktop/X_jj/eclipse/plugins/org.apache.commons.logging_1.2.0.v20180409-1502.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ADMIN/Desktop/activation.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ADMIN/Desktop/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ADMIN/Desktop/jar_JAR/mail.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
