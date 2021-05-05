@@ -1,7 +1,5 @@
 package Entities;
 import java.time.LocalDate;
-import java.util.Calendar;
-import java.util.Date; //For using 'Date' type
 import Abstract.Entity;
 
 public class Customer implements Entity {
@@ -9,10 +7,21 @@ public class Customer implements Entity {
 	private int id;
 	private String firstName;
 	private String lastName;
-	private int dateOfBirth;
+	private LocalDate dateOfBirth;
 	private String nationalityId;
 	
 	
+	public Customer(int id, String firstName, String lastName, 
+			LocalDate dateOfBirth, String nationalityId) {
+		
+		this.id = id;
+		this.firstName =firstName;
+		this.lastName = lastName;
+		this.dateOfBirth =dateOfBirth;
+		this.nationalityId = nationalityId;
+		
+		
+	}
 	public int getId() {
 		return id;
 	}
@@ -31,10 +40,10 @@ public class Customer implements Entity {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public int getDateOfBirth() {
+	public LocalDate getDateOfBirth() {
 		return dateOfBirth;
 	}
-	public void setDateOfBirth(int dateOfBirth) {
+	public void setDateOfBirth(LocalDate dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}
 	public String getNationalityId() {
