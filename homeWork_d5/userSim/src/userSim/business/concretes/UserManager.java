@@ -7,6 +7,7 @@ import userSim.business.abstracts.UserService;
 import userSim.core.abstracts.MailControllerService;
 import userSim.core.abstracts.NameControllerService;
 import userSim.core.abstracts.PasswordControllerService;
+import userSim.dataAccess.abstracts.UserDao;
 /*import userSim.dataAccess.abstracts.UserDao;*/
 import userSim.entities.concretes.User;
 
@@ -23,6 +24,7 @@ public class UserManager implements UserService {
 	private MailControllerService mailControllerService;
 	private PasswordControllerService passwordControllerService;
 	private ActivationLinkService activationMailService = new ActivationLinkManager();
+	private UserDao userDao;
 	
 
 	
@@ -30,10 +32,10 @@ public class UserManager implements UserService {
 	
 	
 	public UserManager(
-			/* UserDao userDao, */ NameControllerService nameControllerService , MailControllerService mailControllerService, PasswordControllerService passwordControllerService) {
+		UserDao userDao, NameControllerService nameControllerService , MailControllerService mailControllerService, PasswordControllerService passwordControllerService) {
 		
 		super();
-		/* this.userDao = userDao; */
+		this.userDao = userDao;
 		this.nameControllerService = nameControllerService;
 		this.mailControllerService = mailControllerService;
 		this.passwordControllerService = passwordControllerService;
@@ -56,7 +58,7 @@ public class UserManager implements UserService {
 		
 		if(checkedName && checkedMail && checkedMailIfTaken && checkedPassword) {
 		System.out.println("Kayit islemi basarili! Aktivasyon linki gonderildi : " + activationMail);
-		/* this.userDao.add(user); */
+		userDao.add(user);
 		}
 		else {
 					

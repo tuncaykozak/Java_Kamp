@@ -10,6 +10,8 @@ import userSim.core.concretes.LoginControlManager;
 import userSim.core.concretes.NameControllerManager;
 import userSim.core.concretes.PasswordControllerManager;
 import userSim.core.concretes.SystemMailControllerManager;
+import userSim.dataAccess.concretes.AbcUserDao;
+import userSim.dataAccess.concretes.HibernateUserDao;
 /*import userSim.dataAccess.concretes.HibernateUserDao;*/
 import userSim.entities.concretes.User;
 
@@ -36,11 +38,23 @@ public class Main {
 		User user4 = new User(4,"U","Ulasilmaz","ulasilmazadam@yahoo.com","12345678");
 		User user5 = new User(5,"Usameddin","Ulasilmaz","ulasilmazadam@yahoo.com","1234");
 		
+		User user11 = new User();
+		user11.setId(11);
+		user11.setFirstName("Sen");
+		user11.setLastName("Kimsin");
+		user11.setEmail("tuncaykozak@gmail.com");
+		user11.setPassword("87654321");
+		
 		
 		
 		
 		UserService service = new UserManager(
-				/* new HibernateUserDao(), */ new NameControllerManager(), new SystemMailControllerManager(), new PasswordControllerManager());
+			new HibernateUserDao(),new NameControllerManager(), new SystemMailControllerManager(), new PasswordControllerManager());
+		
+		UserService service2 = new UserManager(
+				new AbcUserDao(),new NameControllerManager(), new SystemMailControllerManager(), new PasswordControllerManager());
+		
+		
 		
 		
 		
@@ -51,13 +65,15 @@ public class Main {
 		
 		service.add(user1);
 		System.out.println("");
-		service.add(user2);
+		service2.add(user2);
 		System.out.println();
 		service.add(user3);
 		System.out.println("");
-		service.add(user4);
+		service2.add(user4);
 		System.out.println("");
 		service.add(user5);
+		System.out.println("");
+		service2.add(user11);
 		System.out.println("");
 		
 		System.out.println("--------------------------------------------------------------------------");
@@ -66,10 +82,10 @@ public class Main {
 		
 		user1.setActivated(true);
 		
-		ActivationControllerService service2 = new ActivationControllerManager();
-		System.out.println(service2.isActive(user1));
+		ActivationControllerService service3 = new ActivationControllerManager();
+		System.out.println(service3.isActive(user1));
 		System.out.println();	
-		System.out.println(service2.isActive(user2));
+		System.out.println(service3.isActive(user2));
 		System.out.println();	
 		
 		System.out.println("--------------------------------------------------------------------------");
@@ -82,10 +98,10 @@ public class Main {
 		String deneme2Mail = "oktaykozak@gmail.com";
 		String deneme2Password ="12345678";
 		
-		LoginControlService service3 = new LoginControlManager();
-		service3.log(user1,deneme1Mail,deneme1Password);
+		LoginControlService service4 = new LoginControlManager();
+		service4.log(user1,deneme1Mail,deneme1Password);
 		System.out.println("");
-		service3.log(user2, deneme2Mail, deneme2Password);
+		service4.log(user2, deneme2Mail, deneme2Password);
 		System.out.println();	
 		
 		System.out.println("--------------------------------------------------------------------------");
