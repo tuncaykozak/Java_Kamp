@@ -1,4 +1,4 @@
-package userSim.core.abstracts;
+package userSim.core.adapters;
 
 import userSim.entities.concretes.User;
 

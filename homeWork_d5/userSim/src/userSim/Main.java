@@ -5,7 +5,7 @@ import userSim.business.abstracts.UserService;
 import userSim.business.concretes.ActivationControllerManager;
 import userSim.business.concretes.UserManager;
 import userSim.core.abstracts.LoginControlService;
-import userSim.core.concretes.GMailValidaterManagerAdapter;
+import userSim.core.adapters.GMailValidaterManagerAdapter;
 import userSim.core.concretes.LoginControlManager;
 import userSim.core.concretes.NameControllerManager;
 import userSim.core.concretes.PasswordControllerManager;

@@ -1,6 +1,5 @@
-package userSim.core.concretes;
+package userSim.core.adapters;
 
-import userSim.core.abstracts.GMailValidateService;
 import userSim.entities.concretes.User;
 import userSim.gMailValidater.GMailValidateManager;
 
