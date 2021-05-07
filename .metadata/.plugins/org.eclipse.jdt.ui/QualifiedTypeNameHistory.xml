@@ -33,4 +33,17 @@
     <fullyQualifiedTypeName name="interfaces.FileLogger"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="interfaces.Utils"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.entities.abstracts.Entity"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.business.abstracts.ProductService"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.business.concretes.ProductManager"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.concretes.HibernateProductDao"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.entities.concretes.Product"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.abstracts.ProductDao"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.concretes.AbcProductDao"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.core.LoggerService"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.core.JLoggerManagerAdapter"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.jLogger.JLoggerManager"/>
 </qualifiedTypeNameHistroy>
