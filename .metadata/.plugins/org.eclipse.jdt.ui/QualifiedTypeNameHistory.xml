@@ -36,7 +36,6 @@
     <fullyQualifiedTypeName name="nLayeredDemo.entities.abstracts.Entity"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="nLayeredDemo.business.abstracts.ProductService"/>
     <fullyQualifiedTypeName name="nLayeredDemo.business.concretes.ProductManager"/>
     <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.concretes.HibernateProductDao"/>
@@ -46,4 +45,19 @@
     <fullyQualifiedTypeName name="nLayeredDemo.core.LoggerService"/>
     <fullyQualifiedTypeName name="nLayeredDemo.core.JLoggerManagerAdapter"/>
     <fullyQualifiedTypeName name="nLayeredDemo.jLogger.JLoggerManager"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="kodlamaio.northwind.dataAccess.abstracts.ProductDao"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="kodlamaio.northwind.entities.concretes.Product"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="kodlamaio.northwind.business.abstracts.ProductService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 </qualifiedTypeNameHistroy>
