@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="oopIntro.ProductManager"/>
-    <fullyQualifiedTypeName name="homeWork_d2.Category"/>
-    <fullyQualifiedTypeName name="homeWork_d2.Instructor"/>
-    <fullyQualifiedTypeName name="homeWork_d2.InstructorManager"/>
-    <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.security.algorithms.MessageDigestAlgorithm"/>
     <fullyQualifiedTypeName name="com.sun.java.accessibility.util.TopLevelWindowListener"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.dtm.ref.CustomStringPool"/>
     <fullyQualifiedTypeName name="homeWork_d2_2.CustomerManager"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="kodlamaio.northwind.business.abstracts.ProductService"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="springfox.documentation.spring.web.plugins.Docket"/>
+    <fullyQualifiedTypeName name="springfox.documentation.spi.DocumentationType"/>
+    <fullyQualifiedTypeName name="springfox.documentation.builders.PathSelectors"/>
+    <fullyQualifiedTypeName name="springfox.documentation.builders.RequestHandlerSelectors"/>
+    <fullyQualifiedTypeName name="springfox.documentation.swagger2.annotations.EnableSwagger2"/>
 </qualifiedTypeNameHistroy>
