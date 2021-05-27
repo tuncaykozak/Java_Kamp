@@ -22,7 +22,9 @@ public class NorthwindApplication {
 	        return new Docket(DocumentationType.SWAGGER_2)  
 	          .select()                                  
 	          .apis(RequestHandlerSelectors.basePackage("kodlamaio.northwind"))
-              .build();                                                
+              .build(); 
+	        
+	       
 	    }
 
 }
