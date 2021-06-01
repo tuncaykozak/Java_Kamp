@@ -8,7 +8,7 @@ public class Result {
 		this.success =success;
 	}
 	
-	public Result(boolean success, String message) {
+	public Result(Boolean success, String message) {
 		this(success);
 		this.message = message;
 	}
