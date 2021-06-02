@@ -31,6 +31,8 @@ public interface ProductService {
     
     DataResult<List<ProductWithCategoryDto>> getProductWithCategoryDetails();
     
+    
+    
 	
 	
 	
