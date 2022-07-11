@@ -7,7 +7,7 @@ public class Main {
 		
 		/*
 		 * KPSPublic service = new KPSPublic(); KPSPublicSoap port =
-		 * service.getPort(KPSPublicSoap.class); port.tcKimlikNoDogrula(35107426200,
+		 * service.getPort(KPSPublicSoap.class); port.tcKimlikNoDogrula(,
 		 * "TUNCAY", "KOZAK", 1991);
 		 */
 
